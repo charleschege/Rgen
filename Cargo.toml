@@ -1,0 +1,8 @@
+[package]
+name = "rgen"
+version = "0.1.0"
+authors = ["iamcharleschege <charleschege@protonmail.ch>"]
+
+[dependencies]
+rand = "0.5"
+signifix = "0.9"
