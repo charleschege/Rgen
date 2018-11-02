@@ -6,3 +6,4 @@ authors = ["iamcharleschege <charleschege@protonmail.ch>"]
 [dependencies]
 rand = "0.5"
 signifix = "0.9"
+array_tool = "1.0.3"
