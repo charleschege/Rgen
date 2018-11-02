@@ -1,7 +1,12 @@
 [package]
 name = "rgen"
-version = "0.1.0"
+version = "0.5.0"
 authors = ["iamcharleschege <charleschege@protonmail.ch>"]
+description = "A fast, dead simple, zero allocation random data generator for Kenyan data."
+repository = "https://github.com/iamcharleschege/Rgen.git"
+readme = "./README.md"
+keywords = ["random data", "Kenya", "counties data"]
+license = "MIT/Apache-2.0"
 
 [dependencies]
 rand = "0.5"

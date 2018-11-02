@@ -18,11 +18,11 @@ fn random_gen(data_type: &'static[&'static str]) -> &str {
     data_type
 }
 
-pub fn gen_first_name() -> &'static str {
+pub fn first_name() -> &'static str {
     random_gen(FIRST_NAMES)
 }
 
-pub fn gen_last_name() -> &'static str {
+pub fn last_name() -> &'static str {
     random_gen(LAST_NAMES)
 }
 
@@ -107,6 +107,6 @@ pub fn timezone() -> &'static str {
 #[test]
 fn test_random_data() {
     println!("FIRST NAME: {}\nLAST NAME: {}\nNAME PREFIX: {}\nEMAIL: {}@{}\nDOMAIN: {}\nCOUNTY: {}",
-        gen_first_name(), gen_last_name(), name_prefix(), String::from("cc"), email_provider(), domain_suffix_kenya(), counties()
+        first_name(), last_name(), name_prefix(), String::from("cc"), email_provider(), domain_suffix_kenya(), counties()
     );
 }
